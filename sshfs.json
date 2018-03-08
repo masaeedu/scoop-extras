@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/masaeedu/win-sshfs",
+    "version": "2.0.47",
+    "license": "MIT",
+    "url": "https://github.com/masaeedu/win-sshfs/releases/download/2.0.47/SSHFS.CLI.zip",
+    "hash": "a040c4c14673e6e0ffa06de0fad4352042554bf068dc7e0daa1c4395a67e5f26",
+    "bin": "sshfs.exe",
+    "checkver": {
+        "github": "https://github.com/masaeedu/win-sshfs"
+    },
+    "autoupdate": {
+        "url": "https://github.com/masaeedu/win-sshfs/releases/download/$version/SSHFS.CLI.zip"
+    }
+}
